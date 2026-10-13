@@ -9,7 +9,7 @@ const navLinks = [
 
 const Navbar = () => {
   return (
-    <nav className="fixed top-7 left-1/2 z-50 w-[90%] max-w-[1200px] -translate-x-1/2 rounded-full border border-white/5 bg-[#272727] px-3 py-3 shadow-lg sm:px-5">
+    <nav className="relative top-10 z-50 mx-auto w-[90%] max-w-[1200px] rounded-full border border-white/5 bg-[#272727] px-3 py-3 shadow-lg sm:px-5">
       <div className="flex items-center justify-between gap-3">
         {/* Resume Button */}
         <a
